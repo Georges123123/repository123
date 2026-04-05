@@ -1,13 +1,16 @@
-<!DOCTYPE html> 
-<html lang="ru"> 
-<head> 
-<meta charset="UTF-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<title>Ошибка</title> 
-</head> 
-<body> 
-<h1>Произошла ошибка</h1> 
-<p>{{ error }}</p> 
-<a href="/">Вернуться на главную</a> 
-</body> 
-</html> 
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ошибка</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Произошла ошибка</h1>
+        <p class="coords">{{ error }}</p>
+        <a href="/" class="back-link">← На главную</a>
+    </div>
+</body>
+</html>
