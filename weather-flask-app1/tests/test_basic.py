@@ -102,3 +102,4 @@ if __name__ == "__main__":
     print(f"Результат: {passed}/{total} тестов пройдено")
 
     sys.exit(0 if passed == total else 1)
+    
