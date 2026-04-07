@@ -1,6 +1,0 @@
-Flask 
-requests 
-python-dotenv 
-pytest 
-flake8 
-flask 
